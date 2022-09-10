@@ -1,4 +1,13 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
+/* css vars */
+:root {
+  --header-color: rgba(54, 167, 54)
+}
+
+
+/* =================================================================================== */
 /* elements */
 body {
   margin: 0;
@@ -7,6 +16,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+  background-image: url(../resources/basketball-man-jumping-playing-8k-h4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  color: white;
+  margin: 5px;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 1px 1px 1px black;
 }
 
 code {
@@ -14,9 +34,28 @@ code {
     monospace;
 }
 
-/* classes */
-.main-header {
-  background-color: rgb(54, 167, 54);
+h1, h2 {
+  color: white;
+  text-shadow: 1px 1px 1px black;
 }
 
+h2 {
+  font-size: 35px;
+}
+
+/* =================================================================================== */
+/* classes */
+.main-header {
+  margin-left: 15px;
+  text-align: left;
+}
+
+.black-text-box {
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.515);
+  margin-left: 25%;
+  padding: 10px;
+}
+
+/* =================================================================================== */
 /* ids */

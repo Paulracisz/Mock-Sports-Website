@@ -14,11 +14,11 @@
 }
 
 .App-header {
-  background-color: rgba(54, 167, 54, 0.789);
+  background-color: black;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: calc(5px + 0.5vmin);
   color: white;
 }
 
